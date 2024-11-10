@@ -1,13 +1,28 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
+
 import sritLogo from '../../../assets/srit-logo.png' 
 import styles from './Header.module.css'
 
 import profileIcon from "../../../assets/svg/profileDefault.svg"
 
 const Header = () => {
+  const navigate = useNavigate();
+
+  const goToProfile = () => {
+    navigate('/profile');
+  }
+
+  const goToHome = () => {
+    navigate('/')
+  }
+
+
+
+
   return (
     <div className={styles.headerContainer}>
-        <div className={styles.collegeWrapper}>
+        <div className={styles.collegeWrapper} onClick={goToHome}>
             <div className={styles.sritLogo}>
                 <img src={sritLogo} />
             </div>
@@ -22,7 +37,7 @@ const Header = () => {
         </div>
         <div className={styles.profileWrapper}>
             <div className={styles.profileUsernname}>
-                <p>
+                <p onClick={goToProfile }>
                     profile
                 </p>
             </div>

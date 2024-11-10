@@ -15,6 +15,7 @@
     display: flex;
     align-items: center;
     padding-left: 10px;
+    cursor: pointer;
 }
 
 .sritLogo img {
@@ -47,4 +48,10 @@
     display:flex;
     align-items: center;
     gap: 20px;
+}
+.profileWrapper p {
+    cursor: pointer;
+}
+.profileWrapper img {
+    cursor: pointer;
 }
