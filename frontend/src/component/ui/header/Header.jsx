@@ -17,9 +17,6 @@ const Header = () => {
     navigate('/')
   }
 
-
-
-
   return (
     <div className={styles.headerContainer}>
         <div className={styles.collegeWrapper} onClick={goToHome}>
@@ -37,12 +34,12 @@ const Header = () => {
         </div>
         <div className={styles.profileWrapper}>
             <div className={styles.profileUsernname}>
-                <p onClick={goToProfile }>
+                <p onClick={goToProfile}>
                     profile
                 </p>
             </div>
-            <div className={styles.profileIcon}>
-                <img src={profileIcon} />
+            <div className={styles.profileIcon} >
+                <img src={profileIcon} onClick={goToProfile}/>
             </div>
         </div>
     </div>
