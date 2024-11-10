@@ -1,0 +1,50 @@
+.headerContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adjust the shadow to your preference */
+    background-color: white;
+    margin-bottom: 30px;
+    
+}
+
+.collegeWrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.sritLogo img {
+    width: 100px;
+}
+
+.searchBar input {
+    background-color: rgba(209, 209, 209, 0.379);
+    height: 50px;
+    width: 500px;
+    border-radius: 30px;
+    border: 0;
+    text-align: center;
+    font-size: 18px;
+    background: transparent url("../../../assets/svg/search-svgrepo-com.svg") no-repeat 13px;
+    background-color: rgba(0, 0, 0, 0.078);
+}
+
+.searchBar input:hover{
+    cursor:text;
+}
+
+.searchBar ::placeholder{
+    color: rgb(87, 82, 82);
+    opacity: 1;
+}
+
+.profileWrapper  {
+    padding-right: 10px;
+    display:flex;
+    align-items: center;
+    gap: 20px;
+}

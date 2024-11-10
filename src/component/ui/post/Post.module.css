@@ -1,0 +1,41 @@
+.postWrapper {
+    margin-bottom: 30px;
+    border-width: 1px;
+    border-color: black;
+    border-style: groove;
+}
+
+.userInfoContainer{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.userAboutContainer p{
+    padding: 0px 15px 0px;
+}
+
+.userNameStyles p{
+    font-weight:500;
+}
+
+.userDesignationStyles p {
+    font-weight: 300;
+}
+
+.pfp{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+    object-position:top;
+}
+
+.postContainer img{
+    height: 500px;
+}
+
+.postDescription p {
+    padding: 7px;
+    font-size: 13px;
+}

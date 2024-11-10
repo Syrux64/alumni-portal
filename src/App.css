@@ -1,0 +1,12 @@
+p{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.webApp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
