@@ -1,3 +1,4 @@
+## Dependencies
 ### Backend
 ```
 npm i
@@ -11,6 +12,7 @@ npm i
 npm i react-router-dom
 ```
 
+## To build and run
 ### To run the server
 cd to backend
 ```
