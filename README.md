@@ -10,3 +10,15 @@ npm i nodemon -D
 npm i
 npm i react-router-dom
 ```
+
+### To run the server
+cd to backend
+```
+npm run build
+```
+
+### To run the react web app
+cd to frontend
+```
+npm run dev
+```
