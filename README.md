@@ -16,7 +16,7 @@ npm i react-router-dom
 ### To run the server
 cd to backend
 ```
-npm run build
+npm run server
 ```
 
 ### To run the react web app
