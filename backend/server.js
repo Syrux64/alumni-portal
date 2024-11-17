@@ -12,8 +12,9 @@ app.get("/api", (req, res) => {
     res.send("This is API");
 })
 
-app.get("/api/profile", (req, res) => {
-    res.json({1:"hi"})
+app.get("/api/profile/:username", (req, res) => {
+    const userName = req.params.username;
+    res.json({1:userName})
 })
 
 
