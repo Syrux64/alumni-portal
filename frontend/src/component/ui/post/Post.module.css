@@ -17,6 +17,7 @@
 
 .userNameStyles p{
     font-weight:500;
+    cursor: pointer;
 }
 
 .userDesignationStyles p {
@@ -29,6 +30,7 @@
     border-radius: 50px;
     object-fit: cover;
     object-position:top;
+    cursor: pointer;
 }
 
 .postContainer img{
