@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 
 import sritLogo from '../../../assets/srit-logo.png' 
 import styles from './Header.module.css'
+// import Bio from '../profile/Bio.jsx'
 
 import profileIcon from "../../../assets/svg/profileDefault.svg"
 

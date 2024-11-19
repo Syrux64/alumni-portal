@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import axios from 'axios'
+import Bio from '../../component/ui/bio/Bio'
 
 const profile = () => {
   const apiCall = () => {
@@ -9,8 +10,19 @@ const profile = () => {
   }
   useEffect(() => {apiCall()}, [])
 
+  
+
   return (
-    <div>profile</div>
+    <div>
+      <Bio 
+        profilePicture={profileData.profilePicture} 
+        name={profileData.name} 
+        headline={profileData.headline} 
+        location={profileData.location} 
+        summary={profileData.summary} 
+        links={profileData.links} 
+      />
+    </div>
   )
 }
 
