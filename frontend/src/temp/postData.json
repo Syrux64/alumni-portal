@@ -6,28 +6,19 @@
         "postImage": "https://s3u.tmimgcdn.com/u28753765/df732153da92da0385316bfef7d0489e.jpg" 
     },
     {
-        "profilePicture": "https://i.pinimg.com/736x/de/fc/07/defc070c81f8297254d6bd53f9d6ceaf.jpg",
-        "userName": "AndrewTate",
-        "userDesignation": "TopG",
-        "postImage": "https://s3u.tmimgcdn.com/u28753765/df732153da92da0385316bfef7d0489e.jpg" 
+        "profilePicture": "https://media.licdn.com/dms/image/v2/C560BAQER_QnUTXrPJw/company-logo_100_100/company-logo_100_100/0/1670264051233/amazon_web_services_logo?e=1740009600&v=beta&t=gvrGJaLGWk9Ezs7KNbyFsPduTdH9oQrHLOOOmToFSts",
+        "userName": "Amazon Web Services (AWS)",
+        "userDesignation": "Promoted",
+        "postImage": "https://media.licdn.com/dms/image/sync/v2/D5610AQHrG1R04cxEQQ/image-shrink_800/image-shrink_800/0/1728437224500?e=1732471200&v=beta&t=CYcpdfPkSNKZJIs4jfZa3OK-Kn1rfFe3lV11IfW4t0c",
+        "postDescription" : "Ready to explore the cloud but don't know where to start? Get an AWS learning recommendation instantly just by selecting your experience level, role, and objectives."
+
     },
     {
-        "profilePicture": "https://i.pinimg.com/736x/de/fc/07/defc070c81f8297254d6bd53f9d6ceaf.jpg",
-        "userName": "AndrewTate",
-        "userDesignation": "TopG",
-        "postImage": "https://s3u.tmimgcdn.com/u28753765/df732153da92da0385316bfef7d0489e.jpg" 
-    },
-    {
-        "profilePicture": "https://i.pinimg.com/736x/de/fc/07/defc070c81f8297254d6bd53f9d6ceaf.jpg",
-        "userName": "AndrewTate",
-        "userDesignation": "TopG",
-        "postImage": "https://s3u.tmimgcdn.com/u28753765/df732153da92da0385316bfef7d0489e.jpg" 
-    },
-    {
-        "profilePicture": "https://i.pinimg.com/736x/de/fc/07/defc070c81f8297254d6bd53f9d6ceaf.jpg",
-        "userName": "AndrewTate",
-        "userDesignation": "TopG",
-        "postImage": "https://s3u.tmimgcdn.com/u28753765/df732153da92da0385316bfef7d0489e.jpg" 
+        "profilePicture": "https://media.licdn.com/dms/image/v2/C4E0BAQFcZAJYC31r5A/company-logo_100_100/company-logo_100_100/0/1632717674622/volvocarindia_logo?e=1740009600&v=beta&t=pdRGGoc22qong_nHx-w-Fqa-YLp7r50n9iI0Bl9EyGo",
+        "userName": "Volvo Car India",
+        "userDesignation": "Promoted",
+        "postImage": "https://media.licdn.com/dms/image/sync/v2/D4D10AQE2VjLZs_pyBQ/image-shrink_800/image-shrink_800/0/1730267021143/1753104061AlwaysOnNovemberLinkedinEX40_4320x4320jpg?e=1732471200&v=beta&t=bEg3bVJvjbMR46AhfrFVLxyo25G-UHtQXmhF-cKWokg" ,
+        "postDescription": "Unveil the Volvo EX40 with the hassle-free package."
     }
 
 ]

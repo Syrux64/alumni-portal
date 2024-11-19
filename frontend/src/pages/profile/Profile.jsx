@@ -3,8 +3,10 @@ import axios from 'axios'
 import Bio from '../../component/ui/bio/Bio'
 
 const profile = () => {
-  const apiCall = () => {
-    axios.get(`${import.meta.env.VITE_API_URL}/api/profile`).then((data) => {
+  const { username } = useParams();
+
+  const apiCall = (username) => {
+    axios.get(`${import.meta.env.VITE_API_URL}/api/profile/${username}`).then((data) => {
       console.log(data.data);
     })
   }
