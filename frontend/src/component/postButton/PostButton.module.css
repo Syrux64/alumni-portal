@@ -1,0 +1,19 @@
+.container {
+    transition: 300ms;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    gap: 5px;
+}
+
+.container:hover {
+    background-color: rgba(50, 49, 47, 0.052);
+    transition: 300ms;
+}
+
+.container:active {
+    background-color: rgba(50, 49, 47, 0.25);
+}
+

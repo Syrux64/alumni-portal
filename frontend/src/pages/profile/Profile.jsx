@@ -17,6 +17,8 @@ const profile = () => {
   return (
     <div>
       profile for {username}
+      <div>
+      </div>
     </div>
   )
 }
