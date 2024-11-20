@@ -44,6 +44,9 @@ const apiCall=(username)=>{
           links={profile.links}
         />
       ))}
+      profile for {username}
+      <div>
+      </div>
     </div>
   );
 };
