@@ -29,8 +29,8 @@ const Feed = () => {
     console.log(feedData);
   }, [feedData]);
 
-  
-  return (
+  if(Array.isArray(feedData)) {
+    return (
     <div>
       <CreatePost />
       {
@@ -44,7 +44,8 @@ const Feed = () => {
         ))
       }
     </div>
-  )
+    )
+  }
 }
 
 export default Feed
