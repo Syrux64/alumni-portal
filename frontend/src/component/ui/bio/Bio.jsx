@@ -1,5 +1,7 @@
-import React from 'react'
-import styles from './Bio.module.css'
+import React from 'react';
+import styles from './Bio.module.css';
+import userProfile from '../../../temp/userProfile.json'; // Import the JSON data
+
 const Bio = ({ profilePicture, name, headline, location, summary, links }) => {
   return (
     <div className={styles.container}>
@@ -14,25 +16,10 @@ const Bio = ({ profilePicture, name, headline, location, summary, links }) => {
 
       {/* User Information */}
       <div className={styles.info}>
-        {/* User Name */}
-        <div className={styles.userName}>
-          {name}
-        </div>
-
-        {/* Headline */}
-        <div className={styles.headline}>
-          {headline}
-        </div>
-
-        {/* Location */}
-        <div className={styles.location}>
-          <span>📍 {location}</span>
-        </div>
-
-        {/* Summary */}
-        <div className={styles.summary}>
-          {summary}
-        </div>
+        <div className={styles.userName}>{name}</div>
+        <div className={styles.headline}>{headline}</div>
+        <div className={styles.location}><span>📍 {location}</span></div>
+        <div className={styles.summary}>{summary}</div>
       </div>
 
       {/* Social Links */}
@@ -52,4 +39,4 @@ const Bio = ({ profilePicture, name, headline, location, summary, links }) => {
   );
 };
 
-export default Bio
+export default Bio;
