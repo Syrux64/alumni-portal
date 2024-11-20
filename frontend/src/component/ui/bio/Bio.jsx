@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Bio.module.css';
-import userProfile from '../../../temp/userProfile.json'; // Import the JSON data
 
 const Bio = ({ profilePicture, name, headline, location, summary, links }) => {
   return (

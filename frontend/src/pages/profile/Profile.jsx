@@ -2,53 +2,63 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import Bio from '../../component/ui/bio/Bio';
-import userProfile from '../../temp/userProfile.json';
 
 const Profile = () => {
   const { username } = useParams();
+  const [userData, setUserData] = useState(null);
 
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(false);
-
-const apiCall=(username)=>{
-  axios.get(`${import.meta.env.VITE_API_URL}/api/profile/${username}`).then ((data)=>{
-    console.log(data.data);
-  })
-}
+  const apiCall = (username) => {
+    axios
+      .get(`${import.meta.env.VITE_API_URL}/api/profile/${username}`)
+      .then((response) => {
+        console.log(response.data); // Check the response
+        setUserData(response.data);
+      })
+      .catch((error) => {
+        console.error("Error fetching user data:", error);
+      });
+  };
 
   useEffect(() => {
-    if (username) {
-      apiCall(username);
-    }
+    apiCall(username);
   }, [username]);
 
-  if (loading) {
-    return <p>Loading...</p>;
+  if (!userData) {
+    return <div>Loading...</div>;
   }
 
-  if (error) {
-    return <p>Error fetching profile data. Please try again later.</p>;
-  }
-
-
-  return (
-    <div>
-      {userProfile.map((profile, index) => (
-        <Bio
-          key={index} 
-          profilePicture={profile.profilePicture}
-          name={profile.name}
-          headline={profile.headline}
-          location={profile.location}
-          summary={profile.summary}
-          links={profile.links}
-        />
-      ))}
-      profile for {username}
+  if (Array.isArray(userData)) {
+    return (
       <div>
+        {userData.map((profile, index) => (
+          <Bio
+            key={index}
+            profilePicture={profile.profilePicture}
+            name={profile.name}
+            headline={profile.headline}
+            location={profile.location}
+            summary={profile.summary}
+            links={profile.links}
+          />
+        ))}
+        Profile for {username}
       </div>
-    </div>
-  );
+    );
+  } else {
+    return (
+      <div>
+        <Bio
+          profilePicture={userData.profilePicture}
+          name={userData.name}
+          headline={userData.headline}
+          location={userData.location}
+          summary={userData.summary}
+          links={userData.links}
+        />
+        Profile for {username}
+      </div>
+    );
+  }
 };
 
 export default Profile;
