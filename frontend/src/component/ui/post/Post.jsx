@@ -3,7 +3,7 @@ import styles from './Post.module.css'
 import UserProfile from '../../userProfile/UserProfile';
 import { useNavigate } from 'react-router-dom'
 
-const Post = ({profilePicture, userName, userDesignation, post}) => {
+const Post = ({profilePicture, userName, userDesignation, post, description}) => {
   const navigate = useNavigate();
 
   const goToUser = () => {
@@ -27,7 +27,7 @@ const Post = ({profilePicture, userName, userDesignation, post}) => {
           <img src={post} />
         </div>
         <div className={styles.postDescription}>
-          <p>Description of the post </p>
+          <p>{description}</p>
         </div>
     </div>
   )

@@ -39,7 +39,8 @@ const Feed = () => {
             profilePicture={post.profilePicture} 
             userName={post.userName} 
             userDesignation={post.userDesignation}
-            post={post.postImage} />
+            post={post.postImage} 
+            description={post.postDescription}/>
 
         ))
       }

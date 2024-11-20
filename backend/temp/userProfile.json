@@ -12,30 +12,17 @@
       { "label": "Email", "url": "mailto:jane.doe@example.com" }
     ]
   },
-
-    "ruban" : {
-      "profilePicture":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREOme6vZXapI-HTNJXRwstlO_vjjF59Wt6cQ&s",
-      "name":"ruban",
-      "headline":"Frontend Developer",
-      "location": "San Francisco, USA",
-      "summary": "Passionate about building user-friendly interfaces and scalable applications.",
-      "links": [
-        { "label": "LinkedIn", "url": "https://linkedin.com/in/janedoe" },
-        { "label": "GitHub", "url": "https://github.com/janedoe" },
-        { "label": "Email", "url": "mailto:jane.doe@example.com" }
-      ]
-    },
-      "bob" : {
-        "profilePicture":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREOme6vZXapI-HTNJXRwstlO_vjjF59Wt6cQ&s",
-        "name":"amit",
-        "headline":"Frontend Developer",
-        "location": "San Francisco, USA",
-        "summary": "Passionate about building user-friendly interfaces and scalable applications.",
-        "links": [
-          { "label": "LinkedIn", "url": "https://linkedin.com/in/janedoe" },
-          { "label": "GitHub", "url": "https://github.com/janedoe" },
-          { "label": "Email", "url": "mailto:jane.doe@example.com" }
-        ]
-      }
-}
+  "suryamohandass" : {
+    "profilePicture": "https://media.licdn.com/dms/image/v2/D5603AQE0whGnWwYpmA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1699949336672?e=1737590400&v=beta&t=Hf7lBpLnhJ4CPhJyuUm_nVCbqDTy7fkw0z4VmWp_Er0",
+    "name": "Surya Mohandass",
+    "headline": "Student/SDE",
+    "location": "Coimbatore, TN",
+    "summary": "HI! Im Surya",
+    "links": [
+      { "label": "LinkedIn", "url": "https://linkedin.com/in/janedoe" },
+      { "label": "GitHub", "url": "https://github.com/janedoe" },
+      { "label": "Email", "url": "mailto:jane.doe@example.com" }
+    ]
+  }
+  }
 ]

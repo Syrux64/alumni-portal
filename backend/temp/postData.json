@@ -3,14 +3,15 @@
         "profilePicture": "https://i.pinimg.com/736x/de/fc/07/defc070c81f8297254d6bd53f9d6ceaf.jpg",
         "userName": "bob",
         "userDesignation": "TopG",
-        "postImage": "https://s3u.tmimgcdn.com/u28753765/df732153da92da0385316bfef7d0489e.jpg" 
+        "postImage": "https://s3u.tmimgcdn.com/u28753765/df732153da92da0385316bfef7d0489e.jpg",
+        "postDescription": "Unveil the Volvo EX40 with the hassle-free package."
     },
     {
-        "profilePicture": "https://media.licdn.com/dms/image/v2/C560BAQER_QnUTXrPJw/company-logo_100_100/company-logo_100_100/0/1670264051233/amazon_web_services_logo?e=1740009600&v=beta&t=gvrGJaLGWk9Ezs7KNbyFsPduTdH9oQrHLOOOmToFSts",
-        "userName": "Amazon Web Services (AWS)",
-        "userDesignation": "Promoted",
-        "postImage": "https://media.licdn.com/dms/image/sync/v2/D5610AQHrG1R04cxEQQ/image-shrink_800/image-shrink_800/0/1728437224500?e=1732471200&v=beta&t=CYcpdfPkSNKZJIs4jfZa3OK-Kn1rfFe3lV11IfW4t0c",
-        "postDescription" : "Ready to explore the cloud but don't know where to start? Get an AWS learning recommendation instantly just by selecting your experience level, role, and objectives."
+        "profilePicture": "https://media.licdn.com/dms/image/v2/D5603AQE0whGnWwYpmA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1699949336672?e=1737590400&v=beta&t=Hf7lBpLnhJ4CPhJyuUm_nVCbqDTy7fkw0z4VmWp_Er0",
+        "userName": "suryamohandass",
+        "userDesignation": "student",
+        "postImage": "https://media.licdn.com/dms/image/v2/D4E22AQHteKV32On5Yw/feedshare-shrink_800/feedshare-shrink_800/0/1715778195751?e=1735171200&v=beta&t=wW9a0wtKXd40RghWPBNf8F5RXTv4LorgSmeFN8pnDn8",
+        "postDescription" : "A full stack web app"
 
     },
     {
