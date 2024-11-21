@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Post from '../../component/ui/post/Post'
 import CreatePost from '../../component/ui/createPost/CreatePost'
+import styles from './Feed.module.css'
 import axios from 'axios'
 
 const Feed = () => {
@@ -31,7 +32,7 @@ const Feed = () => {
 
   if(Array.isArray(feedData)) {
     return (
-    <div>
+    <div className={styles.feedContainer}>
       <CreatePost />
       {
         feedData.map((post, index) => (

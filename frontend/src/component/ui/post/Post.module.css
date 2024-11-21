@@ -1,34 +1,76 @@
-.postWrapper {
-    margin-bottom: 30px;
-    border-width: 1px;
-    border-color: black;
-    border-style: groove;
+@media screen and  (min-width: 600px){
+    .postWrapper {
+        margin-bottom: 30px;
+        border-width: 1px;
+        border-color: black;
+        border-style: groove;
+    }
+
+    .userInfoContainer{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .userAboutContainer p{
+        padding: 0px 15px 0px;
+    }
+
+    .userNameStyles p{
+        font-weight:500;
+        cursor: pointer;
+    }
+
+    .userDesignationStyles p {
+        font-weight: 300;
+    }
+
+    .postContainer img{
+        width: 600px;
+    }
+
+    .postDescription p {
+        padding: 7px;
+        font-size: 13px;
+    }
 }
 
-.userInfoContainer{
-    display: flex;
-    align-items: center;
-    padding: 10px;
-}
+@media screen and  (max-width: 600px){
+    .postWrapper {
+        margin-bottom: 30px;
+        border-width: 1px;
+        border-color: black;
+        border-style: groove;
+        width: 500px;
 
-.userAboutContainer p{
-    padding: 0px 15px 0px;
-}
+    }
 
-.userNameStyles p{
-    font-weight:500;
-    cursor: pointer;
-}
+    .userInfoContainer{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
 
-.userDesignationStyles p {
-    font-weight: 300;
-}
+    .userAboutContainer p{
+        padding: 0px 15px 0px;
+    }
 
-.postContainer img{
-    width: 600px;
-}
+    .userNameStyles p{
+        font-weight:500;
+        cursor: pointer;
+    }
 
-.postDescription p {
-    padding: 7px;
-    font-size: 13px;
+    .userDesignationStyles p {
+        font-weight: 300;
+    }
+
+    .postContainer img{
+        width: 500px;
+    }
+
+    .postDescription p {
+        padding: 7px;
+        font-size: 13px;
+    }
+
 }

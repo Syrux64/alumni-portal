@@ -1,45 +1,98 @@
-.createPostContainer {
-    border-width: 2px;
-    border-style: groove;
-    border-radius: 5px;
-    margin: 0 0 20px 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px 0 10px 0;
-    justify-content: center;
-    gap: 30px;
+@media screen and  (min-width: 600px){
+    .createPostContainer {
+        border-width: 2px;
+        border-style: groove;
+        border-radius: 5px;
+        margin: 0 0 20px 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 0 10px 0;
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    .createButton {
+        height: 30px;
+        width: 150px;
+        font-size: 15px;
+        background-color: rgb(255, 255, 255);
+        border: 0;
+        border-radius: 10px;
+        transition: 300ms;
+        align-items: center;
+    }
+    
+    .createButton:hover {
+        cursor: pointer;
+        background-color: rgba(199, 199, 199, 0.233);
+        transition: 300ms;
+    }
+    
+    .createButton:active {
+        background-color: rgba(199, 199, 199, 0.687);
+    }
+    
+    .postButtonContainer {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    
+    .promptContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
-.createButton {
-    height: 30px;
-    width: 150px;
-    font-size: 15px;
-    background-color: rgb(255, 255, 255);
-    border: 0;
-    border-radius: 10px;
-    transition: 300ms;
-    align-items: center;
+@media screen and  (max-width: 600px){
+    
+    .createPostContainer {
+        border-width: 2px;
+        border-style: groove;
+        border-radius: 5px;
+        margin: 0 0 20px 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 0 10px 0;
+        justify-content: center;
+        gap: 30px;
+        width: 500px;
+    }
+    
+    .createButton {
+        height: 30px;
+        width: 150px;
+        font-size: 15px;
+        background-color: rgb(255, 255, 255);
+        border: 0;
+        border-radius: 10px;
+        transition: 300ms;
+        align-items: center;
+    }
+    
+    .createButton:hover {
+        cursor: pointer;
+        background-color: rgba(199, 199, 199, 0.233);
+        transition: 300ms;
+    }
+    
+    .createButton:active {
+        background-color: rgba(199, 199, 199, 0.687);
+    }
+    
+    .postButtonContainer {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    
+    .promptContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
-.createButton:hover {
-    cursor: pointer;
-    background-color: rgba(199, 199, 199, 0.233);
-    transition: 300ms;
-}
-
-.createButton:active {
-    background-color: rgba(199, 199, 199, 0.687);
-}
-
-.postButtonContainer {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
-
-.promptContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
