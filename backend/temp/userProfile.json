@@ -19,9 +19,7 @@
     "location": "Coimbatore, TN",
     "summary": "HI! Im Surya",
     "links": [
-      { "label": "LinkedIn", "url": "https://linkedin.com/in/janedoe" },
-      { "label": "GitHub", "url": "https://github.com/janedoe" },
-      { "label": "Email", "url": "mailto:jane.doe@example.com" }
+      { "label": "LinkedIn", "url": "https://linkedin.com/in/janedoe" }
     ]
   }
   }
