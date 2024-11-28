@@ -24,15 +24,6 @@
     font-weight: 300;
 }
 
-.pfp{
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
-    object-fit: cover;
-    object-position:top;
-    cursor: pointer;
-}
-
 .postContainer img{
     height: 500px;
 }

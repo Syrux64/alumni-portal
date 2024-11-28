@@ -28,10 +28,13 @@
     width: 500px;
     border-radius: 30px;
     border: 0;
-    text-align: center;
+    text-align: left;
     font-size: 18px;
     background: transparent url("../../../assets/svg/search-svgrepo-com.svg") no-repeat 13px;
     background-color: rgba(0, 0, 0, 0.078);
+    outline: none;
+    padding-left: 50px;
+    padding-right: 30px;
 }
 
 .searchBar input:hover{
