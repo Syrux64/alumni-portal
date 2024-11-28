@@ -1,0 +1,223 @@
+@media screen and  (min-width: 600px){
+
+
+.blogContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.title, .writehere {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.titlee, .writeheree {
+  background-color: rgb(230, 227, 227);
+  color: black;
+  width: 100%;
+  resize: none;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  outline: none;
+  padding: 15px;
+  font-family:  'Georgia', 'Times New Roman', serif;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.titlee {
+  font-size: clamp(18px, 4vw, 24px);
+  min-height: 60px;
+}
+
+.writeheree {
+  font-size: clamp(14px, 3vw, 18px);
+  min-height: 120px;
+}
+
+.titlee:focus, .writeheree:focus {
+  border-color: #000000;
+}
+
+.button {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.button button {
+  font-size: clamp(14px, 2vw, 18px);
+  padding: clamp(8px, 2vw, 12px) clamp(16px, 4vw, 24px);
+  border: none;
+  border-radius: 6px;
+  /* background-color: #84f2f4bd; */
+  background-image: linear-gradient(rgb(151, 245, 253),rgb(157, 157, 155));
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button button:hover {
+  background-color: #e1d25b;
+  transform: translateY(-1px);
+}
+
+.button button:active {
+  transform: translateY(1px);
+}
+
+.button button:focus {
+  outline: 2px solid #000000;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .blogContainer {
+      padding: 15px;
+  }
+  .titlee, .writeheree {
+      padding: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .createPostContainer {
+      flex-direction: row;
+      width: 500px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .blogContainer {
+      padding: 10px;
+  }
+  .button {
+      justify-content: center;
+  }
+  .button button {
+      width: 100%;
+      max-width: 200px;
+  }
+}
+}
+@media screen and  (max-width: 600px){
+
+  .blogContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .title, .writehere {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+  }
+  
+  .titlee, .writeheree {
+    background-color: rgb(230, 227, 227);
+    color: black;
+    width: 100%;
+    resize: none;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    outline: none;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  .titlee {
+    text-align: center;
+    font-size: clamp(18px, 4vw, 24px);
+    min-height: 60px;
+  }
+  
+  .writeheree {
+    font-size: clamp(14px, 3vw, 18px);
+    min-height: 120px;
+  }
+  
+  .titlee:focus, .writeheree:focus {
+    border-color: #000000;
+  }
+  
+  .button {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .button button {
+    font-size: clamp(14px, 2vw, 18px);
+    padding: clamp(8px, 2vw, 12px) clamp(16px, 4vw, 24px);
+    border: none;
+    border-radius: 6px;
+    background-color: #fcea46bd;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .button button:hover {
+    background-color: #e1d25b;
+    transform: translateY(-1px);
+  }
+  
+  .button button:active {
+    transform: translateY(1px);
+  }
+  
+  .button button:focus {
+    outline: 2px solid #000000;
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    .blogContainer {
+        padding: 15px;
+    }
+    .titlee, .writeheree {
+        padding: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .createPostContainer {
+        flex-direction: row;
+        width: 500px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .blogContainer {
+        padding: 10px;
+    }
+    .button {
+        justify-content: center;
+    }
+    .button button {
+        width: 100%;
+        max-width: 200px;
+    }
+  }
+  }
